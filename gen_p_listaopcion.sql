@@ -1,0 +1,38 @@
+INSERT INTO gen_p_listaopcion VALUES (1, 'TipoResultado', 'Tipos de resultado para laboratorio clínico', 1, 'Numerico', '', true);
+INSERT INTO gen_p_listaopcion VALUES (2, 'TipoResultado', 'Tipos de resultado para laboratorio clínico', 2, 'Texto', '', true);
+INSERT INTO gen_p_listaopcion VALUES (3, 'TipoResultado', 'Tipos de resultado para laboratorio clínico', 3, 'Opción múltiple con múltiple respuesta', '', false);
+INSERT INTO gen_p_listaopcion VALUES (4, 'TipoResultado', 'Tipos de resultado para laboratorio clínico', 4, 'Texto largo', '', true);
+INSERT INTO gen_p_listaopcion VALUES (5, 'TipoIdentificacion', 'Tipos de identificación de personas', 1, 'Cédula de ciudadanía', 'CC', true);
+INSERT INTO gen_p_listaopcion VALUES (6, 'TipoIdentificacion', 'Tipos de identificación de personas', 2, 'Tarjeta de identidad', 'TI', true);
+INSERT INTO gen_p_listaopcion VALUES (7, 'TipoIdentificacion', 'Tipos de identificación de personas', 3, 'Cédula de extranjería', 'CE', true);
+INSERT INTO gen_p_listaopcion VALUES (8, 'TipoIdentificacion', 'Tipos de identificación de personas', 4, 'Registro civil', 'RC', true);
+INSERT INTO gen_p_listaopcion VALUES (9, 'TipoIdentificacion', 'Tipos de identificación de personas', 5, 'Pasaporte', 'PA', true);
+INSERT INTO gen_p_listaopcion VALUES (10, 'TipoIdentificacion', 'Tipos de identificación de personas', 6, 'Adulto sin identificación', 'AS', true);
+INSERT INTO gen_p_listaopcion VALUES (11, 'TipoIdentificacion', 'Tipos de identificación de personas', 7, 'Menor sin identificación', 'MS', true);
+INSERT INTO gen_p_listaopcion VALUES (12, 'TipoIdentificacion', 'Tipos de identificación de personas', 8, 'Número único de identificación', 'NU', true);
+INSERT INTO gen_p_listaopcion VALUES (13, 'TipoIdentificacion', 'Tipos de identificación de personas', 9, 'Certificado de nacido vivo', 'NV', true);
+INSERT INTO gen_p_listaopcion VALUES (14, 'TipoIdentificacion', 'Tipos de identificación de personas', 10, 'Salvoconducto', 'SC', true);
+INSERT INTO gen_p_listaopcion VALUES (15, 'TipoIdentificacion', 'Tipos de identificación de personas', 11, 'Nit', 'NIT', false);
+INSERT INTO gen_p_listaopcion VALUES (16, 'TipoIdentificacion', 'Tipos de identificación de personas', 12, 'Carnet diplomático', 'CD', true);
+INSERT INTO gen_p_listaopcion VALUES (17, 'TipoIdentificacion', 'Tipos de identificación de personas', 13, 'Permiso especial de permanencia', 'PE', true);
+INSERT INTO gen_p_listaopcion VALUES (18, 'TipoIdentificacion', 'Tipos de identificación de personas', 14, 'Residente especial para la paz', 'RE', true);
+INSERT INTO gen_p_listaopcion VALUES (19, 'TipoIdentificacion', 'Tipos de identificación de personas', 15, 'Permiso por protección temporal', 'PT', true);
+INSERT INTO gen_p_listaopcion VALUES (20, 'TipoIdentificacion', 'Tipos de identificación de personas', 16, 'Documento extranjero', 'DE', true);
+INSERT INTO gen_p_listaopcion VALUES (21, 'RegSegSocial', 'Regímenes de seguridad social', 1, 'Particular', '', true);
+INSERT INTO gen_p_listaopcion VALUES (22, 'RegSegSocial', 'Regímenes de seguridad social', 2, 'Contributivo', '', true);
+INSERT INTO gen_p_listaopcion VALUES (23, 'RegSegSocial', 'Regímenes de seguridad social', 3, 'Subsidiado', '', true);
+INSERT INTO gen_p_listaopcion VALUES (24, 'RegSegSocial', 'Regímenes de seguridad social', 4, 'No asegurado', '', true);
+INSERT INTO gen_p_listaopcion VALUES (25, 'RegSegSocial', 'Regímenes de seguridad social', 5, 'Otro regímen', '', true);
+INSERT INTO gen_p_listaopcion VALUES (26, 'RegSegSocial', 'Regímenes de seguridad social', 6, 'Accidente de tránsito / ECAT', '', true);
+INSERT INTO gen_p_listaopcion VALUES (27, 'RegSegSocial', 'Regímenes de seguridad social', 7, 'Riesgo laboral', '', true);
+INSERT INTO gen_p_listaopcion VALUES (28, 'RegSegSocial', 'Regímenes de seguridad social', 8, 'Desplazado', '', true);
+INSERT INTO gen_p_listaopcion VALUES (29, 'SexoBiologico', 'Sexo biológico al nacer', 1, 'Masculino', 'M', true);
+INSERT INTO gen_p_listaopcion VALUES (30, 'SexoBiologico', 'Sexo biológico al nacer', 2, 'Femenino', 'F', true);
+INSERT INTO gen_p_listaopcion VALUES (31, 'TipoProf', 'Tipo de profesional', 1, 'Médico especialista', '1', true);
+INSERT INTO gen_p_listaopcion VALUES (32, 'TipoProf', 'Tipo de profesional', 2, 'Médico general', '2', true);
+INSERT INTO gen_p_listaopcion VALUES (33, 'TipoProf', 'Tipo de profesional', 3, 'Enfermera', '3', true);
+INSERT INTO gen_p_listaopcion VALUES (34, 'TipoProf', 'Tipo de profesional', 4, 'Auxiliar de enfermería', '4', true);
+INSERT INTO gen_p_listaopcion VALUES (35, 'TipoProf', 'Tipo de profesional', 5, 'Otro', '5', true);
+
+
+select * from gen_p_listaopcion;
